@@ -376,7 +376,7 @@ Matrix4x4 Inverse(const Matrix4x4& m) {
 /// <returns>4x4行列の乗算</returns>
 Matrix4x4 Multiply(Matrix4x4 matrix1, Matrix4x4 matrix2) {
 	Matrix4x4 multiplyMatrix;
-	float multiply[4];  // 4x4行列に合わせてサイズを変更
+	float multiply[4];
 
 	for (int row = 0; row < 4; row++) {
 		for (int column = 0; column < 4; column++) {
